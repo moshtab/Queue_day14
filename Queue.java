@@ -3,9 +3,9 @@ package day14_Queue;
 interface Iqueue<T> {
 	void push(T data);
 
-	T poll();
-
 	T peek();
+
+	T poll();
 
 	boolean isEmpty();
 

@@ -10,15 +10,11 @@ public class QueueDemo {
 		queue.push("70");
 		queue.push("30");
 		queue.push("56");
-		
+
 		System.out.println();
 		System.out.println(queue.peek());
 		System.out.println(queue.poll());
 		System.out.println(queue.poll());
-		
-
-		
-
 	}
 
 }
